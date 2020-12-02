@@ -1,0 +1,23 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es5",              
+    "module": "es2015",  
+    "sourceMap": true,    
+    "outDir": "./dist", 
+    "types": [
+      "babylonjs",
+      "babylonjs-gui",
+      // "webpack-env",
+      // "webgl2"
+      "babylonjs-materials"
+    ]                     
+  },
+  "include": [
+    "src/**/*", "scene.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.js"
+  ]
+}
